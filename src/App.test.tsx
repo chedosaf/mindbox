@@ -1,7 +1,7 @@
 import React from 'react'
 import i18n from 'i18next'
 import { I18nextProvider, initReactI18next } from 'react-i18next'
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 
 import App from './App'
 import resources from './locales/index'
