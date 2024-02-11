@@ -36,6 +36,7 @@ const Task = ({ text, status, id, handleChange }: TaskProps) => {
           checked={status === 'complited'}
           onChange={() => handleChange(id)}
         />
+        12345566
       </div>
       <TextWrapper>{text}</TextWrapper>
     </Wrapper>
